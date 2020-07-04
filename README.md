@@ -1,6 +1,6 @@
 # fibonacci
 
-[Fibonacci sequence](https://fibonaci-sequence.netlify.app/)
+Go to Website [Fibonacci sequence](https://fibonaci-sequence.netlify.app/)
 
 Fibonacci is a mathematics sequence where the next number in the
 sequence is the result of the first 2 numbers starting by e.g : 0,1,1,2,3,5,8...
