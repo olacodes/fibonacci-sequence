@@ -11,6 +11,14 @@
           Fibonacci
         </router-link>
       </div>
+      <div class="mt-2">
+        <nuxt-link
+          class="nav-link btn btn-sm btn-outline-info my-2 my-sm-0"
+          to="/help"
+        >
+          Help
+        </nuxt-link>
+      </div>
       <!-- </div> -->
     </nav>
   </div>
