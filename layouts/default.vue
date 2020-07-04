@@ -18,13 +18,6 @@ export default {
 </script>
 
 <style>
-/* @media screen and (min-width: 1400px) {
-  .wrapper{
-    max-width: 1400px;
-    margin-right: auto;
-    margin-left: auto;
-  }
-} */
 html, body {
   font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI',
     Roboto, 'Helvetica Neue', Arial, sans-serif;
