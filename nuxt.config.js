@@ -4,6 +4,9 @@ export default {
    ** See https://nuxtjs.org/api/configuration-mode
    */
   mode: 'spa',
+  generate: {
+    fallback: true
+  },
   /*
    ** Nuxt target
    ** See https://nuxtjs.org/api/configuration-target
