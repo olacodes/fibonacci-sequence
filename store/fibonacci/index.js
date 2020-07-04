@@ -24,17 +24,6 @@ export const actions = {
       commit('setFibonacciSequence', result)
       return
     }
-    if (data == 0) {
-      result = [0]
-      commit('setFibonacciSequence', result)
-      return
-    }
-
-    if (data < 0) {
-      result = false
-      commit('setFibonacciSequence', result)
-      return
-    }
 
     const arr = [0, 1]
     for (let i = 2; i <= data + 2; i++) {

@@ -1,3 +1,4 @@
+/* eslint-disable eqeqeq */
 <template>
   <div class="container pb-5">
     <div v-if="isLoading">
@@ -6,7 +7,7 @@
       </b-notification>
     </div>
     <div class="card-container card my-5 shadow">
-      <div class="login-header text-center p-3">
+      <div class="title-card-header text-center p-3">
         <h2 class="title-text">
           Fibonacci Sequence
         </h2>
@@ -72,9 +73,9 @@ export default {
 
   methods: {
     async onAdd () {
-      if (this.maxNumber == null) {
+      if (this.maxNumber == null || (this.maxNumber * 1) <= 1) {
         this.$buefy.notification.open({
-          message: 'Please enter a max number to generate the fibonacci sequence',
+          message: 'Please enter a max number greater than 1 to generate the fibonacci sequence',
           type: 'is-danger',
           duration: 3000,
           position: 'is-top',
@@ -158,8 +159,6 @@ export default {
 </script>
 
 <style scoped lang='scss'>
-/* deep__blue #00113d */
-/* light cyan ##72f3ec */
 
 @media screen and (min-width: 600px) {
   .card-container {
@@ -169,7 +168,7 @@ export default {
   }
 }
 @media screen and (min-width: 400px) {
-  .login,
+  .title-card,
   .submit {
     flex-grow: 1;
     width: 40%;
@@ -182,7 +181,7 @@ export default {
   position: relative;
   color: #00113d;
 }
-.login-header {
+.title-card-header {
   background-color: #00113d;
   color: white;
 }
