@@ -7,7 +7,7 @@
           src="https://res.cloudinary.com/olacode/image/upload/v1585867972/project%20manager/project-logo3_wl6fmi.png"
           alt="logo"
         >
-        <h2>Fibonacci Sequence</h2>
+        <h2 class="footer-text">Fibonacci Sequence</h2>
       </div>
     </div>
   </footer>
@@ -31,5 +31,8 @@
   width: 120px;
   border-radius: 100%;
   background-color: #00113d;
+}
+.footer-text{
+  font-size: 2rem;
 }
 </style>
